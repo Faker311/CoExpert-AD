@@ -28,11 +28,14 @@ data/
 
 ## How to start
 
-- Set up the environment as specified in requirements.txt.
+- Set up the environment as specified in **requirements.txt**.
 
-- Prepare the dataset and organise it as described above.
+- Prepare the dataset and organise it as **Data Organization**.
 
-- Configure the relevant models in lmm_model.py
+- Configure the relevant models in
+```
+python lmm_eval.py
+```
 
 
 - Run the following code to evaluate.
