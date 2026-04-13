@@ -1,6 +1,7 @@
 # CoExpert-AD
 - CoExpert-AD Code Implementation
-- Data structures (similar to MMAD)
+- Data Organization (similar to MMAD)
+```text
 data/
 ├── DS-MVTec/           # MVTec-AD dataset
 │   ├── bottle/         # catalogy files
@@ -16,4 +17,5 @@ data/
 ├── .../
 │
 └── mmad_eval.json      # eval files
+```
 
