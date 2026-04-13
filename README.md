@@ -1,9 +1,13 @@
 # CoExpert-AD
+
 ## Overview of CoExpert-AD
 
+![图片1](assets/framework.png)
 
 ## Data Organization
-- similar to MMAD
+
+- Refer to https://github.com/jam-cc/MMAD
+
 ```text
 data/
 ├── DS-MVTec/           # MVTec-AD dataset
@@ -23,4 +27,17 @@ data/
 ```
 
 ## How to start
-- 
+
+- Set up the environment as specified in requirements.txt.
+
+- Prepare the dataset and organise it as described above.
+
+- Configure the relevant models in lmm_model.py
+
+
+- Run the following code to evaluate.
+
+```
+python lmm_eval.py
+```
+
